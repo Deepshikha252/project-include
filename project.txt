@@ -1,0 +1,111 @@
+1.  Tic Tac Toe
+https://github.com/deepshikha252/JavaScript-Mini-Project---JS-Mini-Project---7qtec8k82535
+
+To create a GitHub Page, your repository should include an index.html file in the root folder. Then, go to the Settings page of your repository and select your master branch as the source in the Github Pages section.
+I currently use Netlify for hosting my site and it's been my favorite platform so far. I'd recommend it for developers who want to get their site (static or dynamic) up and running without any hassle in setting up a build process.
+
+
+We have created a fully working version of the game using HTML, CSS and JavaScript. Your task will be to reverse-engineer the code to be able to improve this game further
+https://regal-tulumba-1be644.netlify.app
+
+Look at the HTML, CSS and JavaScript code below. It creates the user interface and user interaction for a game of Tic-Tac-Toe. However the code is incomplete.
+
+Your job is to complete this code by completing these two challenges:
+
+Challenge 1: Update this code to display a message when one of the players has won or when the game ends on a draw.
+
+Challenge 2: Update this code for player 1 to play against the computer! To do so you can either get the computer to place its token on the grid randomly, but you may also get the computer to make a decision by comparing different positions to place its token.
+
+Learning Objectives By completing this challenge you will further develop your HTML, CSS and JavaScript skills and learn how to manipulate two-dimensional arrays in JavaScript using for loops and if statements.
+
+
+
+
+
+
+2. Calculator 
+
+https://willowy-choux-37030a.netlify.app
+
+
+JavaScript Calculator Let's start creating our simple calculator. We are going to use:
+
+HTML (index.html) - To create structure of the calculator CSS (style.css) - To style the calculator JavaScript (script.js) - To create logic of the calculator We will start building our calculator step by step. First, the structure of the calculator will be created (using HTML), then we will style it (using CSS) and finally, we will create the logic of the calculator (using JavaScript).
+
+Before proceeding further let's have a look at what we are going to build.
+
+Creating the structure of the calculator - HTML When you create the structure of anything in HTML, the structure need not be perfect. You first need to create a basic layout and then modify it to your needs.
+
+To start with first create a container element (a div element with a class container) and inside it create another div element with a class calculator. This div element will be our calculator container.
+
+3. Portfolio   https://www.w3schools.com/howto/howto_website_create_portfolio.asp
+
+https://www.w3schools.com/howto/howto_website_create_resume.asp
+
+https://friendly-arithmetic-114f5f.netlify.app/
+
+The project portfolio should include details about who, what, when, where, why, and how the organization has undertaken it. It should also have the exact beginning and end dates mentioned.
+
+However, a project inventory includes all the proposed, underway, or planned projects of an organization. It is wise that most organizations will mention ongoing and proposed projects in their documents. Every aspect of the project should be mentioned- including the information that will be important to find specific information needed for project screening, prioritization, and evaluation.
+
+With Webflow, you can create amazing layouts and animations by using the HTML and CSS functions on their dashboard, and it comes with an inbuilt CMS so you don't have to worry about updating content or storing images.
+
+Project Portfolio Management & Project Management- The Difference
+
+Project management is the management of a project which is has a start and endpoint. The goals of a project are defined at the beginning to achieve them. Thus, the monitoring and planning of a series of processes to achieve goals are called project management.
+
+Whereas, Project portfolio management enlists how all the projects reached their desired goals and if they were successful or not. It helps to choose similar natured projects which have generated a higher Return of Investment.
+
+One can conclude that project management is a subset of PPM as it requires one to meet the company’s goals by understanding and studying past projects that were a success.
+
+Project Portfolio Management & Project Management- The Difference
+
+Project management is the management of a project which is has a start and endpoint. The goals of a project are defined at the beginning to achieve them. Thus, the monitoring and planning of a series of processes to achieve goals are called project management.
+
+Whereas, Project portfolio management enlists how all the projects reached their desired goals and if they were successful or not. It helps to choose similar natured projects which have generated a higher Return of Investment.
+
+One can conclude that project management is a subset of PPM as it requires one to meet the company’s goals by understanding and studying past projects that were a success.
+
+I currently use Netlify for hosting my site and it's been my favorite platform so far. I'd recommend it for developers who want to get their site (static or dynamic) up and running without any hassle in setting up a build process.
+
+
+Who is a portfolio for
+Creating a portfolio can be important for your career.
+
+It can be helpful when searching for a job, a freelancing gig, or showcasing your skills towards a new client.
+
+Typical roles that use portfolios are professionals such as, but no limited to:
+
+Software developers
+UX designers
+Graphic designers
+Photographers
+Marketing professionals
+
+
+
+4. Photography
+https://leafy-unicorn-19afba.netlify.app/
+
+We have created a fully working version of the game using HTML, CSS and JavaScript. Your task will be to reverse-engineer the code to be able to improve this game further
+5.To-Do-List
+ https://quiet-zabaione-4bb10d.netlify.app/
+FOR USING FOR FRONTEND AND BACKEND HTML,CSS ,BOOTSRAP,PHP MUSQL,REACT,SQL
+6.Flappy-Bird
+https://tranquil-cajeta-55106b.netlify.app/
+
+FOR USING FOR FRONTEND AND BACKEND HTML,CSS ,BOOTSRAP,PHP MUSQL,REACT,SQL
+
+
+7. Shopping cart
+https://benevolent-puppy-86e206.netlify.app/
+
+8.Mobile-Tab -navigation
+https://stunning-capybara-190761.netlify.app/
+
+9.CSS-GRID-RESPONSIVE RESUME
+
+https://transcendent-chebakia-2a3ca2.netlify.app/
+
+10. UI/UX-MOBILE-VERIFY-Code
+https://frabjous-creponne-32e179.netlify.app/
