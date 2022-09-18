@@ -1,0 +1,201 @@
+body {
+    font-family: Roboto, arial;
+    margin: 0;
+    background-color: #E9DAC1;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+        -30px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.container {
+    background-color: rgb(253, 246, 246);
+}
+
+.container-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.container-text h2 {
+    color: rgb(168, 168, 168);
+}
+
+.container-images {
+    background: url(https://images.pexels.com/photos/3022134/pexels-photo-3022134.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#header {
+    padding: 24px;
+    text-align: center;
+    background: #1E212D;
+    color: rgb(250, 250, 250);
+}
+
+#header h2 {
+    border-left: dotted 15px rgb(236, 234, 234);
+    border-right: dotted 15px rgb(243, 243, 243);
+    display: inline-block;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+.caption {
+    padding: 14px;
+    text-align: center;
+    background: #1E212D;
+    color: rgb(250, 250, 250);
+}
+
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: rgb(51, 49, 49);
+}
+
+footer h3 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+    .container {
+        display: flex;
+        height: 100%;
+    }
+
+    .container-text {
+        height: 100vh;
+    }
+
+    .container-image {
+        height: 100vh;
+    }
+}
+
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #1E212D;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}
